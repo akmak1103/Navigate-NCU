@@ -7,7 +7,7 @@ public class websiteClick : MonoBehaviour
     public GameObject layers;
     void OnMouseDown()
     {
-        Debug.Log("clicked");
+        //Debug.Log("clicked");
         gameObject.SetActive(false);
         layers.SetActive(true);
     }
