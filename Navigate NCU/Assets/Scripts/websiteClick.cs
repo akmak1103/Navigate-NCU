@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class websiteClick : MonoBehaviour
 {
+    public GameObject code,db;
     public GameObject layers;
     void OnMouseDown()
     {
-        //Debug.Log("clicked");
-        gameObject.SetActive(false);
-        layers.SetActive(true);
-    }
+        code.SetActive(true);
+        db.SetActive(true);
+        Animator anim = layers.GetComponent<Animator>();
+        anim.SetInteger("click",1)
+;    }
 }
