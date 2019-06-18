@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class learnMore : MonoBehaviour
 {
-    public GameObject frnt,mid,bck,head;
+    public GameObject frnt,mid,bck,head,ob1;
     void OnMouseDown()
     {
         frnt.SetActive(false);
@@ -12,5 +12,6 @@ public class learnMore : MonoBehaviour
         bck.SetActive(false);
         head.SetActive(false);
         gameObject.SetActive(false);
+        ob1.SetActive(true);
     }
 }
