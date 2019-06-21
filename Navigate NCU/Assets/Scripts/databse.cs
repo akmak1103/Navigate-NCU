@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class databse : MonoBehaviour
 {
-    public GameObject website,code;
+    public GameObject website,code,button;
     void OnMouseDown()
     {
         website.SetActive(true);
         code.SetActive(false);
+        button.SetActive(false);
     }
 }
