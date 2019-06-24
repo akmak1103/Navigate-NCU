@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class load_Nav_UI : MonoBehaviour
 {
-    void OnMouseDown()
+    public void exitapp()
     {
         SceneManager.LoadScene("SampleScene");
     }
